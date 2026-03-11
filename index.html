@@ -6,31 +6,30 @@
     <meta name="description" content="Demoliciones Ariete es una empresa especializada en demoliciones seguras y controladas en [Ciudad y Región]. Demoliciones totales, parciales e interiores, gestión de escombros y permisos." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
-
     <link rel="canonical" href="https://www.arietedemoliciones.cl/" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Demoliciones Ariete | Empresa de demoliciones" />
-    <meta property="og:description" content="Demoliciones seguras, rápidas y profesionales en [Ciudad y Región]. Demoliciones totales, parciales e interiores con gestión integral de residuos." />
-    <meta property="og:url" content="https://www.arietedemoliciones.cl/" />
-    <meta property="og:image" content="https://www.arietedemoliciones.cl/assets/img/hero-bg.jpg" />
-    <meta property="og:locale" content="es_CL" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Demoliciones Ariete | Empresa de demoliciones" />
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="Demoliciones Ariete | Empresa de demoliciones" />
+    <meta property="og:description" content="Demoliciones seguras, rápidas y profesionales en [Ciudad y Región]." />
+    <meta property="og:url"         content="https://www.arietedemoliciones.cl/" />
+    <meta property="og:locale"      content="es_CL" />
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content="Demoliciones Ariete | Empresa de demoliciones" />
     <meta name="twitter:description" content="Demoliciones seguras, rápidas y profesionales en [Ciudad y Región]." />
-    <meta name="twitter:image" content="https://www.arietedemoliciones.cl/assets/img/hero-bg.jpg" />
 
-    <link rel="icon" type="image/svg+xml" href="script/logo-ariete.svg" />
-
+    <link rel="icon" type="image/svg+xml" href="logo-ariete.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+
     <header class="site-header">
         <div class="container header-inner">
             <a href="#inicio" class="logo" aria-label="Demoliciones Ariete - Inicio">
                 <span class="logo-mark">
-                    <img src="script/logo-ariete.svg" alt="Logo Demoliciones Ariete" loading="lazy" />
+                    <img src="logo-ariete.svg" alt="Logo Demoliciones Ariete" width="38" height="38" />
                 </span>
                 <span class="logo-text">
                     <span class="logo-main">Ariete</span>
@@ -57,10 +56,21 @@
     </header>
 
     <main id="inicio">
+
+        <!-- HERO -->
         <section class="hero" aria-labelledby="hero-title">
+            <img
+                class="hero-bg-image"
+                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=75"
+                alt=""
+                aria-hidden="true"
+                loading="eager"
+                fetchpriority="high"
+            />
             <div class="container hero-inner">
                 <div class="hero-content">
-                    <h1 id="hero-title">Demoliciones seguras y profesionales en [Ciudad]</h1>
+                    <p class="hero-eyebrow">Especialistas en demolición</p>
+                    <h1 id="hero-title">Demoliciones <em>seguras</em> y profesionales en [Ciudad]</h1>
                     <p class="hero-lead">
                         Ariete es una empresa especializada en <strong>demoliciones controladas</strong> para viviendas, industrias y comercios. Planificación técnica, seguridad certificada y gestión integral de residuos.
                     </p>
@@ -76,27 +86,34 @@
                     <p class="hero-note">Atendemos proyectos de demolición en [Ciudad] y alrededores.</p>
                 </div>
 
-                <div class="hero-highlight" aria-label="Datos destacados de Demoliciones Ariete">
+                <div class="hero-highlight" aria-label="Datos destacados">
                     <figure class="hero-media">
-                        <img src="assets/img/hero-bg.jpg" alt="Excavadora realizando demolición controlada" loading="lazy" />
-                        <figcaption class="hero-media-tag">Imagen referencial de demolición controlada</figcaption>
+                        <img
+                            src="https://images.unsplash.com/photo-1590862893765-0b7c3c6d2a63?auto=format&fit=crop&w=900&q=80"
+                            alt="Excavadora realizando demolición controlada"
+                            loading="eager"
+                        />
+                        <figcaption class="hero-media-tag">Demolición controlada con maquinaria especializada</figcaption>
                     </figure>
-                    <div class="highlight-item">
-                        <span class="number">+300</span>
-                        <span class="label">Proyectos ejecutados</span>
-                    </div>
-                    <div class="highlight-item">
-                        <span class="number">0</span>
-                        <span class="label">Accidentes graves registrados</span>
-                    </div>
-                    <div class="highlight-item">
-                        <span class="number">100%</span>
-                        <span class="label">Gestión de escombros</span>
+                    <div class="highlights-row">
+                        <div class="highlight-item">
+                            <span class="number">+300</span>
+                            <span class="label">Proyectos ejecutados</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="number">0</span>
+                            <span class="label">Accidentes graves</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="number">100%</span>
+                            <span class="label">Gestión de escombros</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- SERVICIOS -->
         <section id="servicios" class="section section-alt">
             <div class="container">
                 <header class="section-header">
@@ -105,26 +122,44 @@
                 </header>
                 <div class="grid services-grid">
                     <article class="card service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><rect x="3" y="10" width="18" height="11" rx="1"/><path d="M8 10V7a4 4 0 018 0v3"/><line x1="12" y1="14" x2="12" y2="17"/></svg>
+                        </div>
                         <h3>Demolición total</h3>
                         <p>Derribo completo de casas, galpones, bodegas y estructuras en desuso, con planificación técnica y control de riesgos para vecinos y entorno.</p>
                     </article>
                     <article class="card service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M3 21h18M3 10h18M3 7l9-4 9 4M4 10v11M20 10v11M8 10v11M16 10v11M12 10v11"/></svg>
+                        </div>
                         <h3>Demolición parcial</h3>
                         <p>Demolición selectiva de muros, losas o secciones específicas, ideal para ampliaciones y remodelaciones donde se mantiene parte de la estructura.</p>
                     </article>
                     <article class="card service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M8 21V3M16 21V3M2 12h20"/></svg>
+                        </div>
                         <h3>Demoliciones interiores</h3>
                         <p>Remoción de tabiques, cielos, pisos y terminaciones interiores, minimizando polvo y vibraciones para continuar operando en otras áreas.</p>
                     </article>
                     <article class="card service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+                        </div>
                         <h3>Corte y retiro de hormigón</h3>
                         <p>Corte de losas, fundaciones y elementos de hormigón armado con herramientas especializadas y protocolos de seguridad.</p>
                     </article>
                     <article class="card service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        </div>
                         <h3>Retiro de escombros</h3>
                         <p>Carga, transporte y disposición final autorizada de escombros, dejando el terreno limpio y listo para la siguiente etapa del proyecto.</p>
                     </article>
                     <article class="card service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><polyline points="9 15 11 17 15 13"/></svg>
+                        </div>
                         <h3>Gestión de permisos</h3>
                         <p>Asesoría y apoyo en la obtención de permisos municipales, coordinación con servicios básicos y cumplimiento de normativa ambiental y de seguridad.</p>
                     </article>
@@ -132,6 +167,7 @@
             </div>
         </section>
 
+        <!-- POR QUÉ ARIETE -->
         <section id="por-que-ariete" class="section">
             <div class="container">
                 <header class="section-header">
@@ -140,18 +176,22 @@
                 </header>
                 <div class="grid reasons-grid">
                     <article class="card reason-card">
+                        <span class="reason-number" aria-hidden="true">01</span>
                         <h3>Seguridad primero</h3>
                         <p>Protocolos de seguridad, charlas diarias y supervisión permanente en obra. Equipos de protección personal completos para todo el personal.</p>
                     </article>
                     <article class="card reason-card">
+                        <span class="reason-number" aria-hidden="true">02</span>
                         <h3>Experiencia comprobada</h3>
                         <p>Más de una década ejecutando demoliciones en distintos contextos: urbanos, industriales y residenciales.</p>
                     </article>
                     <article class="card reason-card">
+                        <span class="reason-number" aria-hidden="true">03</span>
                         <h3>Maquinaria adecuada</h3>
                         <p>Retroexcavadoras, martillos hidráulicos, minicargadores, camiones tolva y herramientas manuales para cada etapa del proceso.</p>
                     </article>
                     <article class="card reason-card">
+                        <span class="reason-number" aria-hidden="true">04</span>
                         <h3>Cumplimiento normativo</h3>
                         <p>Trabajo alineado con la normativa municipal, sanitaria y ambiental vigente. Gestión de residuos en vertederos autorizados.</p>
                     </article>
@@ -159,6 +199,7 @@
             </div>
         </section>
 
+        <!-- PROCESO -->
         <section id="proceso" class="section section-alt">
             <div class="container">
                 <header class="section-header">
@@ -167,57 +208,75 @@
                 </header>
                 <ol class="process-list">
                     <li>
-                        <h3>1. Visita técnica y evaluación</h3>
+                        <div class="step-number" aria-hidden="true">01</div>
+                        <h3>Visita técnica y evaluación</h3>
                         <p>Revisamos la estructura, accesos, servicios conectados y entorno. Identificamos riesgos y definimos el método de demolición más seguro.</p>
                     </li>
                     <li>
-                        <h3>2. Presupuesto detallado</h3>
+                        <div class="step-number" aria-hidden="true">02</div>
+                        <h3>Presupuesto detallado</h3>
                         <p>Entregamos una cotización clara, con alcances definidos, plazos estimados y condiciones de trabajo.</p>
                     </li>
                     <li>
-                        <h3>3. Planificación y permisos</h3>
+                        <div class="step-number" aria-hidden="true">03</div>
+                        <h3>Planificación y permisos</h3>
                         <p>Coordinamos el corte de suministros, la gestión de permisos y el plan de seguridad y señalización en obra.</p>
                     </li>
                     <li>
-                        <h3>4. Ejecución y retiro de escombros</h3>
+                        <div class="step-number" aria-hidden="true">04</div>
+                        <h3>Ejecución y retiro de escombros</h3>
                         <p>Ejecutamos la demolición de forma controlada, con supervisión constante, para luego retirar escombros y dejar el terreno limpio.</p>
                     </li>
                 </ol>
             </div>
         </section>
 
+        <!-- PROYECTOS -->
         <section id="proyectos" class="section">
             <div class="container">
                 <header class="section-header">
                     <h2>Proyectos de demolición</h2>
-                    <p>Hemos participado en demoliciones de casas, bodegas, pequeñas industrias y locales comerciales. Estos son algunos tipos de proyectos que realizamos:</p>
+                    <p>Hemos participado en demoliciones de casas, bodegas, pequeñas industrias y locales comerciales.</p>
                 </header>
                 <div class="grid projects-grid">
                     <article class="card project-card">
-                        <img src="assets/img/robot-demolicion.jpg" alt="Demolición de vivienda unifamiliar" loading="lazy" />
-                        <h3>Demolición de vivienda unifamiliar</h3>
-                        <p>Demolición completa de casa antigua de 2 pisos para construcción de nuevo proyecto habitacional.</p>
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1626885930974-4b69aa21bbf9?auto=format&fit=crop&w=800&q=80" alt="Demolición de vivienda unifamiliar" loading="lazy" />
+                        </figure>
+                        <div class="project-card-body">
+                            <h3>Demolición de vivienda unifamiliar</h3>
+                            <p>Demolición completa de casa antigua de 2 pisos para construcción de nuevo proyecto habitacional.</p>
+                        </div>
                     </article>
                     <article class="card project-card">
-                        <img src="assets/img/ingenieria.jpg" alt="Demolición interior de local comercial" loading="lazy" />
-                        <h3>Demolición interior de local comercial</h3>
-                        <p>Desarme y retiro de estructura e instalaciones anexas, cuidando las estructuras principales.</p>
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80" alt="Demolición interior de local comercial" loading="lazy" />
+                        </figure>
+                        <div class="project-card-body">
+                            <h3>Demolición interior de local comercial</h3>
+                            <p>Desarme y retiro de estructura e instalaciones interiores, cuidando las estructuras principales del edificio.</p>
+                        </div>
                     </article>
                     <article class="card project-card">
-                        <img src="assets/img/gestion-escombros.jpg" alt="Demolición de galpón industrial" loading="lazy" />
-                        <h3>Demolición de galpón industrial</h3>
-                        <p>Desarme y retiro de estructura metálica e instalaciones anexas, gestionando residuos y chatarra.</p>
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1581578017426-3fc6e0b17c71?auto=format&fit=crop&w=800&q=80" alt="Demolición de galpón industrial" loading="lazy" />
+                        </figure>
+                        <div class="project-card-body">
+                            <h3>Demolición de galpón industrial</h3>
+                            <p>Desarme y retiro de estructura metálica e instalaciones anexas, gestionando residuos y chatarra.</p>
+                        </div>
                     </article>
                 </div>
                 <p class="section-note">¿Quieres saber si podemos ejecutar tu proyecto? <a href="#contacto">Contáctanos y conversemos tu caso</a>.</p>
             </div>
         </section>
 
+        <!-- ÁREA DE SERVICIO -->
         <section id="area-servicio" class="section section-alt">
             <div class="container">
                 <header class="section-header">
                     <h2>Área de servicio</h2>
-                    <p>Demoliciones Ariete actualmente atiende proyectos en [Ciudad] y comunas cercanas. Para proyectos mayores, podemos evaluar otras regiones.</p>
+                    <p>Demoliciones Ariete actualmente atiende proyectos en [Ciudad] y comunas cercanas.</p>
                 </header>
                 <div class="service-area">
                     <div>
@@ -231,12 +290,13 @@
                     </div>
                     <div>
                         <h3>Proyectos especiales</h3>
-                        <p>Si tu demolición se encuentra fuera de estas zonas, contáctanos. Evaluamos cada proyecto de forma individual.</p>
+                        <p>Si tu demolición se encuentra fuera de estas zonas, contáctanos. Evaluamos cada proyecto de forma individual y podemos movilizar equipos según las necesidades de la obra.</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- FAQ -->
         <section id="faq" class="section">
             <div class="container">
                 <header class="section-header">
@@ -271,33 +331,58 @@
             </div>
         </section>
 
+        <!-- CTA BANNER -->
+        <section class="cta-banner" aria-label="Llamado a la acción">
+            <div class="container">
+                <h2>¿Listo para iniciar tu proyecto?</h2>
+                <p>Cuéntanos tu demolición y recibirás una cotización clara y detallada sin compromiso.</p>
+                <div class="btn-group">
+                    <a class="btn primary" href="#contacto">Solicitar presupuesto</a>
+                    <a class="btn secondary" href="tel:+56912345678">+56 9 1234 5678</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
         <section id="contacto" class="section section-contact">
             <div class="container contact-grid">
                 <div>
-                    <header class="section-header" style="text-align: left; margin-left: 0;">
+                    <header class="section-header" style="text-align:left;margin-left:0;margin-bottom:0;">
                         <h2>Contáctanos</h2>
-                        <p>Cuéntanos tu proyecto de demolición y te responderemos con una propuesta clara y sin compromiso.</p>
+                        <p style="margin:0;">Cuéntanos tu proyecto y te responderemos con una propuesta clara y sin compromiso.</p>
                     </header>
                     <ul class="contact-details">
-                        <li><strong>Teléfono:</strong> <a href="tel:+56912345678">+56 9 1234 5678</a></li>
-                        <li><strong>Correo:</strong> <a href="mailto:contacto@arietedemoliciones.cl">contacto@arietedemoliciones.cl</a></li>
-                        <li><strong>Horario:</strong> Lunes a viernes, 9:00 a 18:00 hrs</li>
-                        <li><strong>Dirección:</strong> [Dirección física en Ciudad, Región]</li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            <a href="tel:+56912345678">+56 9 1234 5678</a>
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            <a href="mailto:contacto@arietedemoliciones.cl">contacto@arietedemoliciones.cl</a>
+                        </li>
+                        <li>
+                            <strong>Horario</strong>
+                            <span>Lunes a viernes, 9:00 a 18:00 hrs</span>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            <span>[Dirección física en Ciudad, Región]</span>
+                        </li>
                     </ul>
                 </div>
                 <div>
                     <form class="contact-form" action="mailto:contacto@arietedemoliciones.cl" method="post" enctype="text/plain">
                         <div class="form-row">
                             <label for="nombre">Nombre y apellido</label>
-                            <input type="text" id="nombre" name="nombre" required />
+                            <input type="text" id="nombre" name="nombre" autocomplete="name" required />
                         </div>
                         <div class="form-row">
                             <label for="telefono">Teléfono</label>
-                            <input type="tel" id="telefono" name="telefono" required />
+                            <input type="tel" id="telefono" name="telefono" autocomplete="tel" required />
                         </div>
                         <div class="form-row">
                             <label for="email">Correo electrónico</label>
-                            <input type="email" id="email" name="email" required />
+                            <input type="email" id="email" name="email" autocomplete="email" required />
                         </div>
                         <div class="form-row">
                             <label for="tipo">Tipo de demolición</label>
@@ -333,17 +418,24 @@
             </div>
             <div class="footer-links">
                 <a href="#inicio">Volver arriba</a>
+                <a href="#servicios">Servicios</a>
                 <a href="#contacto">Contacto</a>
             </div>
         </div>
     </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/56912345678" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Demoliciones Ariete",
-      "image": "https://www.arietedemoliciones.cl/assets/img/hero-bg.jpg",
       "@id": "https://www.arietedemoliciones.cl/#empresa",
       "url": "https://www.arietedemoliciones.cl/",
       "telephone": "+56 9 1234 5678",
@@ -352,17 +444,11 @@
         "streetAddress": "[Dirección física]",
         "addressLocality": "[Ciudad]",
         "addressRegion": "[Región]",
-        "postalCode": "[Código postal]",
         "addressCountry": "CL"
-      },
-      "priceRange": "$$",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "[Ciudad y comunas aledañas]"
       },
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
         "opens": "09:00",
         "closes": "18:00"
       }
