@@ -1,0 +1,304 @@
+========================================
+📄 Archivo: ./index.html
+========================================
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ariete Demoliciones | Precisión y Potencia en Demolición Técnica</title>
+    <meta name="description" content="Especialistas en demolición técnica, robótica y estructural. Ariete Demoliciones ofrece seguridad industrial y gestión eficiente de escombros para proyectos de alta complejidad.">
+    <meta name="keywords" content="demolición, demolición técnica, demolición robótica, retiro de escombros, gestión de pasivos ambientales, ingeniería estructural, desmantelamiento, Ariete Demoliciones">
+    <meta name="author" content="Ariete Demoliciones">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Ariete Demoliciones | Expertos en Demolición Técnica">
+    <meta property="og:description" content="Ejecutamos proyectos de alta complejidad estructural con precisión milimétrica y tecnología de punta.">
+    <meta property="og:image" content="assets/img/hero-bg.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CL">
+
+    <link rel="icon" type="image/svg+xml" href="script/logo-ariete.svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ariete-navbar py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#inicio" aria-label="Inicio Ariete Demoliciones">
+                <img src="script/logo-ariete.svg" alt="Logotipo Ariete" width="35" height="35" class="me-2">
+                <span class="fw-bold text-uppercase letter-spacing-1">Ariete<span class="text-naranjo">.</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-naranjo px-4" href="#contacto">Cotizar Proyecto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header id="inicio" class="hero-section d-flex align-items-center" style="background-image: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9)), url('assets/img/index.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="display-3 fw-bold mb-4 text-white">Demolición técnica con <span class="text-naranjo">precisión milimétrica.</span></h1>
+                        <p class="lead mb-5 text-gray-light">Ejecutamos proyectos de alta complejidad estructural. Seguridad industrial, tecnología robótica y gestión eficiente de escombros.</p>
+                        <a href="#servicios" class="btn btn-outline-light btn-lg px-5 me-3 mb-3 mb-sm-0">Nuestros Servicios</a>
+                        <a href="#contacto" class="btn btn-naranjo btn-lg px-5">Hablemos</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="nosotros" class="py-6 bg-main">
+            <div class="container py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <img src="assets/img/index.jpg" alt="Ingeniero de Ariete Demoliciones planificando proyecto" class="img-fluid rounded shadow-lg" style="filter: grayscale(15%);">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="text-naranjo fw-bold text-uppercase tracking-wide">Quiénes Somos</h6>
+                        <h2 class="display-6 fw-bold text-white mb-4">Experiencia e Ingeniería al servicio de tu proyecto</h2>
+                        <p class="text-gray-light mb-4">En Ariete Demoliciones entendemos que derribar una estructura requiere tanta ingeniería como construirla. Nuestro equipo multidisciplinario evalúa, planifica y ejecuta cada fase garantizando la máxima seguridad para el entorno y el personal.</p>
+                        <ul class="list-unstyled text-gray-light mb-4">
+                            <li class="mb-2">✓ Planificación estructural previa.</li>
+                            <li class="mb-2">✓ Cumplimiento estricto de normativas medioambientales.</li>
+                            <li class="mb-2">✓ Maquinaria especializada de última generación.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="py-6 bg-darker">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h6 class="text-naranjo fw-bold text-uppercase tracking-wide">Especialidades</h6>
+                    <h2 class="display-6 fw-bold text-white">Nuestra Capacidad Operativa</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <article class="card bg-card border-0 h-100 ariete-card">
+                            <img src="assets/img/unnamed2.jpg" class="card-img-top" alt="Maquinaria robótica realizando demolición interior">
+                            <div class="card-body p-4">
+                                <h3 class="card-title h4 text-white fw-bold">Demolición Robótica</h3>
+                                <p class="card-text text-gray-light">Intervenciones interiores de alta precisión sin emisiones y con bajo nivel de ruido, ideales para espacios confinados o activos.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="card bg-card border-0 h-100 ariete-card">
+                            <img src="assets/img/unnamed3.jpg" class="card-img-top" alt="Camiones de alto tonelaje retirando escombros">
+                            <div class="card-body p-4">
+                                <h3 class="card-title h4 text-white fw-bold">Gestión de Pasivos</h3>
+                                <p class="card-text text-gray-light">Carga, transporte y disposición final certificada de escombros y materiales de demolición a gran escala, cuidando el medio ambiente.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="card bg-card border-0 h-100 ariete-card">
+                            <img src="assets/img/unnamed.jpg" class="card-img-top" alt="Estructuras apuntaladas por seguridad">
+                            <div class="card-body p-4">
+                                <h3 class="card-title h4 text-white fw-bold">Demolición Estructural</h3>
+                                <p class="card-text text-gray-light">Desmantelamiento controlado de edificios industriales y comerciales protegiendo las estructuras adyacentes de manera segura.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-6 bg-main">
+            <div class="container py-5">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <h2 class="display-6 fw-bold text-white">¿Listo para comenzar?</h2>
+                        <p class="text-gray-light">Déjanos los detalles de tu proyecto y nuestro equipo de ingenieros se pondrá en contacto para una evaluación técnica.</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="bg-darker py-5 border-top" style="border-color: #333 !important;">
+        <div class="container text-center text-md-start">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a class="navbar-brand d-flex align-items-center justify-content-center justify-content-md-start mb-3" href="#">
+                        <img src="script/logo-ariete.svg" alt="Logotipo Ariete" width="30" height="30" class="me-2">
+                        <span class="fw-bold text-uppercase letter-spacing-1 text-white">Ariete<span class="text-naranjo">.</span></span>
+                    </a>
+                    <p class="text-gray-light small">Líderes en demolición técnica, robótica y gestión estructural.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-white mb-3">Contacto</h5>
+                    <p class="text-gray-light small mb-1">contacto@arietedemoliciones.cl</p>
+                    <p class="text-gray-light small mb-1">+56 9 1234 5678</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-white mb-3">Operaciones</h5>
+                    <p class="text-gray-light small">Cobertura nacional para proyectos de alta complejidad.</p>
+                </div>
+            </div>
+            <div class="text-center mt-4 pt-3 border-top" style="border-color: #333 !important;">
+                <p class="text-gray-light small mb-0">&copy; 2026 Ariete Demoliciones. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+========================================
+📄 Archivo: ./assets/css/styles.css
+========================================
+/* ==========================================
+   ARIETE DEMOLICIONES - Estilos Base
+   ========================================== */
+
+:root {
+    --bg-main: #161616;      /* Gris carbón muy oscuro para el fondo general */
+    --bg-darker: #0f0f0f;    /* Casi negro para contrastar secciones */
+    --bg-card: #222222;      /* Gris un poco más claro para las tarjetas */
+    --naranjo: #FF6B00;      /* Safety Orange vibrante */
+    --naranjo-hover: #e56000;
+    --text-light: #e0e0e0;
+    --text-muted: #999999;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-light);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================
+   Utilidades de Texto y Color
+   ========================================== */
+.text-naranjo { color: var(--naranjo) !important; }
+.text-gray-light { color: var(--text-muted); }
+.bg-darker { background-color: var(--bg-darker); }
+.bg-card { background-color: var(--bg-card); }
+.letter-spacing-1 { letter-spacing: 1px; }
+
+/* ==========================================
+   Botones Personalizados
+   ========================================== */
+.btn-naranjo {
+    background-color: var(--naranjo);
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-naranjo:hover {
+    background-color: var(--naranjo-hover);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 0, 0.3);
+}
+
+/* ==========================================
+   Navegación
+   ========================================== */
+.ariete-navbar {
+    background-color: rgba(15, 15, 15, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-light);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--naranjo);
+}
+
+/* ==========================================
+   Sección Hero (Principal)
+   ========================================== */
+.hero-section {
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Efecto Parallax suave */
+}
+
+/* ==========================================
+   Tarjetas de Servicios
+   ========================================== */
+.ariete-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 3px solid transparent !important;
+}
+
+.ariete-card:hover {
+    transform: translateY(-5px);
+    border-bottom: 3px solid var(--naranjo) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(20%); /* Apaga un poco el color natural de las fotos para más sobriedad */
+    transition: filter 0.3s ease;
+}
+
+.ariete-card:hover .card-img-top {
+    filter: grayscale(0%);
+}
+
+========================================
+📄 Archivo: ./assets/js/main.js
+========================================
+document.addEventListener("DOMContentLoaded", function () {
+  const navToggle = document.querySelector(".nav-toggle");
+  const mainNav = document.querySelector(".main-nav");
+  const yearSpan = document.getElementById("current-year");
+
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
+
+  if (navToggle && mainNav) {
+    navToggle.addEventListener("click", function () {
+      const isOpen = mainNav.classList.toggle("open");
+      navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    // Cerrar el menú al hacer clic en un enlace
+    mainNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (mainNav.classList.contains("open")) {
+          mainNav.classList.remove("open");
+          navToggle.setAttribute("aria-expanded", "false");
+        }
+      });
+    });
+  }
+});
+
+

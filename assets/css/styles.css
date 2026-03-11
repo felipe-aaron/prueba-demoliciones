@@ -1,0 +1,104 @@
+/* ==========================================
+   ARIETE DEMOLICIONES - Estilos Base
+   ========================================== */
+
+:root {
+    --bg-main: #161616;      /* Gris carbón muy oscuro para el fondo general */
+    --bg-darker: #0f0f0f;    /* Casi negro para contrastar secciones */
+    --bg-card: #222222;      /* Gris un poco más claro para las tarjetas */
+    --naranjo: #FF6B00;      /* Safety Orange vibrante */
+    --naranjo-hover: #e56000;
+    --text-light: #e0e0e0;
+    --text-muted: #999999;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-light);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================
+   Utilidades de Texto y Color
+   ========================================== */
+.text-naranjo { color: var(--naranjo) !important; }
+.text-gray-light { color: var(--text-muted); }
+.bg-darker { background-color: var(--bg-darker); }
+.bg-card { background-color: var(--bg-card); }
+.letter-spacing-1 { letter-spacing: 1px; }
+
+/* ==========================================
+   Botones Personalizados
+   ========================================== */
+.btn-naranjo {
+    background-color: var(--naranjo);
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-naranjo:hover {
+    background-color: var(--naranjo-hover);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 0, 0.3);
+}
+
+/* ==========================================
+   Navegación
+   ========================================== */
+.ariete-navbar {
+    background-color: rgba(15, 15, 15, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-light);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--naranjo);
+}
+
+/* ==========================================
+   Sección Hero (Principal)
+   ========================================== */
+.hero-section {
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Efecto Parallax suave */
+}
+
+/* ==========================================
+   Tarjetas de Servicios
+   ========================================== */
+.ariete-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 3px solid transparent !important;
+}
+
+.ariete-card:hover {
+    transform: translateY(-5px);
+    border-bottom: 3px solid var(--naranjo) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(20%); /* Apaga un poco el color natural de las fotos para más sobriedad */
+    transition: filter 0.3s ease;
+}
+
+.ariete-card:hover .card-img-top {
+    filter: grayscale(0%);
+}

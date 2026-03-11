@@ -1,0 +1,38 @@
+<svg width="220" height="80" viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo transparente -->
+  <g fill="none" fill-rule="evenodd">
+
+    <!-- Ariete / carnero simplificado -->
+    <g transform="translate(10, 15)" fill="#B3262D">
+      <!-- Cuerpo -->
+      <rect x="10" y="25" width="35" height="18" rx="6" />
+      <!-- Cabeza -->
+      <rect x="40" y="20" width="18" height="16" rx="4" />
+      <!-- Cuerno estilo Aries -->
+      <path d="M45 18
+               C 38 5, 23 5, 18 18
+               C 16 23, 18 28, 22 30
+               C 19 26, 20 21, 24 19
+               C 28 17, 34 18, 37 22
+               Z" />
+      <!-- Patas -->
+      <rect x="14" y="42" width="5" height="10" rx="1" />
+      <rect x="27" y="42" width="5" height="10" rx="1" />
+    </g>
+
+    <!-- Bloque / muro derrumbándose -->
+    <g transform="translate(80, 15)" fill="#2F3437">
+      <rect x="0" y="5" width="18" height="40" transform="skewY(-8)" />
+      <!-- Fragmentos -->
+      <polygon points="20,18 26,14 28,20" />
+      <polygon points="18,30 24,28 23,34" />
+    </g>
+
+    <!-- Nombre Ariete -->
+    <text x="120" y="40" font-family="Montserrat, system-ui, sans-serif"
+          font-size="22" fill="#1F2528" font-weight="600">
+      Ariete
+    </text>
+
+  </g>
+</svg>

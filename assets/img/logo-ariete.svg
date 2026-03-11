@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Logo Demoliciones Ariete</title>
+  <desc id="desc">Icono de ariete con forma de carnero derribando un bloque</desc>
+
+  <!-- Grupo principal del ariete -->
+  <g fill="#ffffff">
+    <!-- Cuerpo del ariete -->
+    <rect x="8" y="28" width="26" height="12" rx="6" />
+
+    <!-- Cabeza del carnero -->
+    <circle cx="32" cy="26" r="6" />
+
+    <!-- Cuerno estilo Aries -->
+    <path d="M30 22
+             C 26 18, 20 18, 17 22
+             C 15 24, 15 27, 17 29
+             C 18.5 30.5, 20.5 30.5, 22 29"
+          fill="none"
+          stroke="#ffffff"
+          stroke-width="2.2"
+          stroke-linecap="round" />
+
+    <!-- Detalle de luz en el cuerpo -->
+    <rect x="11" y="30" width="4" height="8" opacity="0.45" />
+  </g>
+
+  <!-- Bloque / muro derribado -->
+  <g fill="#ffffff">
+    <!-- Bloque principal inclinado (muro) -->
+    <rect x="38" y="22" width="8" height="20" rx="2"
+          transform="skewY(-10)" />
+
+    <!-- Fragmentos que salen despedidos -->
+    <polygon points="46,24 52,20 53,25" opacity="0.8" />
+    <polygon points="46,32 51,30 50,35" opacity="0.8" />
+    <polygon points="44,40 49,39 47,43" opacity="0.7" />
+  </g>
+</svg>
+
